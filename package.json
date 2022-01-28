@@ -1,0 +1,33 @@
+{
+  "name": "signum-pgen",
+  "version": "1.0.0",
+  "description": "Small Tool to generate passphrases in masses",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ohager/signum-pgen.git"
+  },
+  "bin": {
+    "signum-pgen": "./index.js"
+  },
+  "keywords": [
+    "signum",
+    "cli",
+    "signum network",
+    "blockchain"
+  ],
+  "author": "ohager",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ohager/signum-pgen/issues"
+  },
+  "homepage": "https://github.com/ohager/signum-pgen#readme",
+  "dependencies": {
+    "@fast-csv/format": "^4.3.5",
+    "@signumjs/crypto": "^1.0.0-rc.10",
+    "commander": "^8.3.0"
+  }
+}

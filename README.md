@@ -1,2 +1,2 @@
 # signum-pgen
-Just antoher small tool
+Just another small tool
