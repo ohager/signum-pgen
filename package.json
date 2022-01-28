@@ -2,8 +2,9 @@
   "name": "signum-pgen",
   "version": "1.0.0",
   "description": "Small Tool to generate passphrases in masses",
-  "main": "index.js",
+  "main": "./src/index.js",
   "scripts": {
+    "start": "node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -11,7 +12,7 @@
     "url": "git+https://github.com/ohager/signum-pgen.git"
   },
   "bin": {
-    "signum-pgen": "./index.js"
+    "signum-pgen": "./generate.js"
   },
   "keywords": [
     "signum",
